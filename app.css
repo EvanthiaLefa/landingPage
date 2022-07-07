@@ -1,0 +1,79 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #bbf0e8;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+#showcase {
+    background-image: url("../imgs/mike-swigunski-ueBmz9K8zTg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+button{
+    height: 60px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(139, 231, 220, 0.596);
+}
+section{
+    display: flexbox;
+    height: 10vh;
+}
+
+img {
+    width: 30%;
+    height: 500px;
+}
+#imgSec{
+    float: right;
+}
+div{
+    display: flexbox;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: -350px;
+
+}
+#cont{
+    position: relative;
+    top: 420px;
+}
+#footImg{
+width: 70%;
+height: 400px;
+position: relative;
+
+}
+#infoDiv{
+    position: relative;
+    left: 68%;
+}
+#search{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+#formBtn{
+    width: 120px;
+    height: 40px;
+}
